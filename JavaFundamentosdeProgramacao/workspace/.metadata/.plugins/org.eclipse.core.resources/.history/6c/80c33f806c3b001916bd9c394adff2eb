@@ -1,0 +1,29 @@
+package classe;
+
+public class Calculadora {
+
+	double resultado;
+	
+	//Entrada -> Algoritmo -> Saída 
+	double somar(double a, double b) {
+		resultado = a +b;
+		return resultado;
+	}
+	
+	//Entrada -> Algoritmo
+	void acrescentar(double a) {
+		resultado += a;
+	}
+	
+	//Algoritmo -> Saída
+	double obterResultado() {
+		return resultado;
+	}
+	
+	//Algoritmo
+	void limpar() {
+		resultado = 0;
+	}
+	
+    
+}

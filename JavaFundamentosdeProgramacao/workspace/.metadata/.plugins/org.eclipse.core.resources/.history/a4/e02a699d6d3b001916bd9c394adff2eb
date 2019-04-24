@@ -1,0 +1,34 @@
+package teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class CalculadoraTeste {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testSomar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testAcrescentar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testObterResultado() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testLimpar() {
+		fail("Not yet implemented");
+	}
+
+}

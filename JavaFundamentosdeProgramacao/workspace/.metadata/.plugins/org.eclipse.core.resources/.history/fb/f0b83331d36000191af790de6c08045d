@@ -1,0 +1,37 @@
+package API;
+
+public class ExplorandoString {
+
+	public static void main(String[] args) {
+		String nome = "Leo"+"nardo";
+	
+		//Alguns métodos importantes
+		System.out.println(nome.toUpperCase()); //LEONARDO
+		System.out.println(nome);//Leonardo
+	    
+		//Obs extra, String não tem o método reverse(), 
+		//só quem tem é a StringBuilder, que veremos na próxima aula
+		
+		System.out.println(nome.length());
+		System.out.println(nome.substring(0,3));//beginIndex, endIndex. Retorna Leo
+		//retorna o primeiro índice que ele encontra esse caractere: 6
+		System.out.println(nome.indexOf('d'));
+		//retorna d
+		System.out.println(nome.charAt(6));
+		//Compare duas Strings sem levar em consideação as letras maiúsculas e minúsculas
+		System.out.println(nome.equalsIgnoreCase("leonardo"));//(anotherString)
+	    //pra saber se uma String começa com tal trecho
+		System.out.println(nome.startsWith("Leo"));//(Preffix) //true
+		System.out.println(nome.endsWith("ardo"));//(suffix) //true
+		System.out.println(nome.isEmpty()); //false
+		System.out.println(nome.concat(" é legal").concat("!")); //retorna String
+		
+		//A String é imutável:
+		System.out.println(nome); //Leonardo
+	    //Se eu quiser mudá-la:
+		//LEO é legal!
+		nome = nome.toUpperCase().substring(0,3).concat(" é legal!");
+	
+	}
+
+}

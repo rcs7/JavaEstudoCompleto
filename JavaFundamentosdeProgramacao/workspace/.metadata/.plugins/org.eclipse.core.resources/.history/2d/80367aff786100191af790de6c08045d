@@ -1,0 +1,5 @@
+package oo.heranca;
+//herda o comportamento padrão que foi definido na class
+public class Civic extends Carro{
+
+}

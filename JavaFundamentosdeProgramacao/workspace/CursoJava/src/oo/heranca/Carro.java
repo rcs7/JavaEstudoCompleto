@@ -1,0 +1,50 @@
+package oo.heranca;
+
+public class Carro {
+	protected int VELOCIDADE_MAX = 200;
+		//poderia ser assim e a class especializada que 
+		//ajeitaria o valor dela
+		//protected int VELOCIDADE_MAX;
+	    //Deixe maiúscula pra poder lembrar que deveria ser uma 
+		//cte
+	private int velocidadeAtual = 0;
+	
+	//Um método final é de certa forma um método constante, 
+	//ou seja que não pode ser modificado pelas classes filhas
+	//Métodos protected é feito pra ser usado na classe filha
+	protected final void acelerarMais(int velocidade) {
+		if(velocidadeAtual + velocidade > VELOCIDADE_MAX) {
+			velocidadeAtual = VELOCIDADE_MAX; 
+		}else {
+			velocidadeAtual += velocidade;
+			
+		}
+		
+	}
+	
+	protected final void frearMais(int velocidade) {
+		if(velocidadeAtual - velocidade < 0) {
+			velocidadeAtual = 0;
+		}else {
+			velocidadeAtual -= velocidade;
+		}
+	}
+	
+	public void acelerar() {
+		acelerarMais(5);
+	}
+	
+	public void frear() {
+		frearMais(5);
+	}
+	
+	public int getVelocidadeAtual() {
+		return velocidadeAtual;
+	}	
+	/*Tira a DRY - Duplicação de código. O certo é ter 
+	 esse método só aq na class pai*/
+	public int imprimiVelMaxima(){
+		return this.VELOCIDADE_MAX;
+	}
+	
+}

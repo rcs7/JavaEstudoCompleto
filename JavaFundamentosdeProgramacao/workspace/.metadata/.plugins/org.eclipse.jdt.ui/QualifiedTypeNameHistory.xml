@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.Byte"/>
+<fullyQualifiedTypeName name="java.lang.Short"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="java.lang.Float"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.Double"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="classe.Calculadora"/>
+<fullyQualifiedTypeName name="classe.Produto"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="java.util.Deque"/>
+<fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Coleções.Endereco"/>
+<fullyQualifiedTypeName name="oo.encapsulamento.casa2.Filha"/>
+<fullyQualifiedTypeName name="oo.encapsulamento.casa2.Genro"/>
+<fullyQualifiedTypeName name="oo.encapsulamento.casa1.Sogro"/>
+<fullyQualifiedTypeName name="oo.encapsulamento.casa1.Sogra"/>
+<fullyQualifiedTypeName name="oo.heranca.Ferrari"/>
+<fullyQualifiedTypeName name="oo.polimorfismo.Feijao"/>
+<fullyQualifiedTypeName name="oo.polimorfismo.Pessoa"/>
+<fullyQualifiedTypeName name="oo.polimorfismo.Sorvete"/>
+<fullyQualifiedTypeName name="oo.polimorfismo.Comida"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>

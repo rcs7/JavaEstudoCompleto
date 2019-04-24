@@ -1,0 +1,33 @@
+package teste;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import classe.Calculadora;
+
+class CalculadoraTeste {
+
+	Calculadora c;
+	@BeforeEach
+	void setUp() throws Exception {
+		c = new Calculadora();
+	}
+
+	@Test
+	void testSomar() {
+		assertEquals(4.0, c.somar(3.0, 1.0));
+	}
+
+	@Test
+	void testObterResultado() {
+		assertEquals(c.resultado,c.obterResultado());
+	}
+
+	@Test
+	void testLimpar() {
+		assertEquals(c.resultado, c.limpar());
+	}
+
+}
